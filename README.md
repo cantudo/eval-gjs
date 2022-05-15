@@ -23,6 +23,6 @@ make install
 gdbus call \
   --session \
   --dest org.gnome.Shell \
-  --object-path /dev/ramottamado/EvalGjs \
+  --object-path /dev/cantudo/EvalGjs \
   --method dev.cantudo.EvalGjs.Eval "Main.overview.show();"
 ```
